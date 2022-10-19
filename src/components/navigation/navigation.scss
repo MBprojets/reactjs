@@ -1,0 +1,52 @@
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (min-width: 992px){
+    .Navigation{
+        height: 27vh;
+
+        .containerLogo{
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar{
+            height: 7vh;
+            display: flex;
+            justify-content: center;
+
+            .bar{
+                width: 70%;
+                height: 7vh;
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-evenly;
+
+                .navBtn{
+                    padding: 12px;
+                    font-size: 18px;
+                    text-decoration: none;
+                    font-weight: 400;
+                    color: grey;
+                    transition: 0.2s ease;
+
+                    &:hover{
+                        color: #2C488E;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+ 
+
+        }
+    }
+    
+
+
+    
+
+}
