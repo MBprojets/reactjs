@@ -1,0 +1,36 @@
+.FooterInfo{
+    width: 100%;
+    left: 0;
+    bottom: 25px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+    .contentFooterInfo{
+        width: 50%;
+        height: 8vh;
+        border-radius: 10vh;
+        display: flex;
+        align-items: center;
+        background-color: #141e3dda;
+
+        .containerAlaune{
+            
+            h1{
+                color: rgba(255, 0, 0, 0.918);
+            }
+        }
+
+        .dataFooterInfo{
+
+            h4{
+                color: rgba(255, 255, 255, 0.849);
+            }
+            
+        }
+    }
+
+  
+  }

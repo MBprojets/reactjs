@@ -14,11 +14,11 @@ function Navigation(){
             <nav className="navbar">
 
                 <div className="bar">
-                    <Link className="navBtn">Accueil</Link>
-                    <Link className="navBtn">Articles</Link>
-                    <Link className="navBtn">Contact</Link>
+                    <Link className="navBtn" to={'/'}>Accueil</Link>
+                    <Link className="navBtn" to={'actualite'}>Actualité</Link>
+                    <Link className="navBtn" to={'./production'}>PamProd</Link>
+                    <Link className="navBtn" to={'./contact'}>Contact</Link>
                 </div>
-
             </nav>
 
         </div>
