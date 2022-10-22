@@ -5,10 +5,46 @@
 @media screen and (min-width: 992px){
 
     .Home{
-        height: 770vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin: 0;
+        padding: 0;
+
+        .space{
+            height: 20vh;
+        }
+
+        .HomeUp{
+            height: 70vh;
+
+
+        }
+
+        .containerLastArticle, .containerSocialHome, .containerPolitiqueHome{
+            height: 60vh;
+       
+
+            .titleLastArticle , .titleSocialtArticle, .titlePolitiquetArticle{
+                width: 88%;
+                height: 6vh;
+                display: flex;
+                align-items: center;
+                border : none;
+                border-bottom: 3px solid #2C488E;
+
+                h1{ 
+                    padding: 8px;
+                    font-size: 20px;
+                    background-color: #2C488E;
+                }
+            }
+
+            .contentLastArticle{
+                width: 88%;
+                height: 50vh;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
     }
 
     
